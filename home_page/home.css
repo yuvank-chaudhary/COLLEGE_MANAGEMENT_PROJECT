@@ -4,3 +4,42 @@ body{
     box-sizing: border-box;
     font-size: 16px;
 }
+
+/* college name and logo */
+#logo{
+    font-size: 1.6rem;
+    vertical-align: bottom;
+}
+#logo img{
+    width: 18%;
+    height: 80%;
+    
+}
+
+
+/* navbar */
+#navbar{
+    vertical-align:top;
+    background-color: #004d7d;
+}
+#navbar_list{
+    list-style: none;
+}
+
+#navbar_list li a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+#navbar_list li a:focus{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+#login{
+    color: #fff;
+    background-color: rgb(72, 72, 221);
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
