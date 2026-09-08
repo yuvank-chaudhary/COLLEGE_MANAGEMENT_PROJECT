@@ -10,16 +10,16 @@
 </head>
 
 <body>
-    <div class="container-fluid" style="min-height: 100vh;background-color: #0fc2e2;">
-        <div class="row" style="background-color: #004d7d;">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-2 d-flex justify-content-center" id="college_name_and_logo">
+    <div class="container-fluid" style="min-height: 100vh;">
+<!------------------------------- college name and navbar  -->
+        <div class="row" style="background-color: #004d7d;min-height: 5vh;">
+            <div class="col-lg-3 d-flex justify-content-center" id="college_name_and_logo">
                 <div id="logo" class="d-flex justify-content-center align-items-center gap-3">
                     <img src="../images/college_logo.png" alt="">
                     <p>abc college</p>
                 </div>
             </div>
-            <div class="col-lg-8 d-flex justify-content-center align-items-center gap-4 " id="navbar" style="background-color: #004d7d;">
+            <div class="col-lg-9 d-flex justify-content-center align-items-center gap-4 " id="navbar">
                 <ul class="d-flex justify-content-center align-items-center gap-4 " id="navbar_list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">about</a></li>
@@ -30,12 +30,36 @@
                     <li><a href="#">Notification</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <button id="login">LOG IN</button>
+                <button id="login" class="d-flex gap-2"><img src="../images/login_lock_icon.png" style="height: 20px;width: 20px;">LOG IN</button>
             </div>
-            <div class="col-lg-1"></div>
         </div>
-
-
+<!-- -------------------------------------- college image ------------------------------------ -->
+        <div class="row" style="min-height: 50vh;" id="college_img" style="padding-top: 10vh;">
+            <div class="col-1">
+                <button id="slide_button"><</button>
+            </div>
+            <div class="col-10" id="welcome_container">
+                <div id="welcome_college">
+                    <p id="welcome">Welcome to</p>
+                    <p id="college_name">ABC COLLEGE</p>
+                    <p id="thought">Bulding a better future thought <br>equality eductionand innovation</p>
+                    <div>
+                        <button id="explore_college_button">Explore College</button>
+                    <button id="college__login_button">LOG IN</button>
+                    </div>
+                </div>
+                <div class="dot">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1">
+                <button id="slide_button">></button>
+            </div>
+        </div>
 
     </div>
 </body>

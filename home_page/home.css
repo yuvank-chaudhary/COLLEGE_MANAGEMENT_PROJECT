@@ -1,45 +1,132 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-size: 16px;
 }
 
-/* college name and logo */
-#logo{
+/* --------------------------------college name and logo -----------------------------------------*/
+#logo {
     font-size: 1.6rem;
     vertical-align: bottom;
 }
-#logo img{
+
+#logo img {
     width: 18%;
     height: 80%;
-    
+
 }
 
+#logo p {
+    font-size: 2rem;
+    font-weight: bolder;
+}
 
-/* navbar */
-#navbar{
-    vertical-align:top;
+#logo p span {
+    font-size: 0.5rem;
+}
+
+/*----------------------------------------- navbar --------------------------------------*/
+#navbar {
+    vertical-align: top;
     background-color: #004d7d;
+    overflow-y: auto;
 }
-#navbar_list{
+
+#navbar_list {
     list-style: none;
 }
 
-#navbar_list li a{
-    text-decoration: none;
-    font-size: 0.8rem;
-}
-
-#navbar_list li a:focus{
+#navbar_list li a {
     color: #fff;
-    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
 }
 
-#login{
+#navbar_list li a:focus {
+    color: #3583e8;
+    border-bottom: 2px solid #3583e8;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+#login {
     color: #fff;
     background-color: rgb(72, 72, 221);
     border: 0px;
     border-radius: 10px;
     padding: 5px 10px 5px 10px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px #e0e2e4;
+}
+
+#login:active {
+    box-shadow: none;
+}
+
+/* -------------------------- college image ------------------------------------------------------- */
+
+#college_img {
+    background-image: url('../images/college_img-1242x700.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#welcome_container{
+    height: 300px;
+    width: 80%;
+}
+
+#welcome_college{
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 5px 1px 5px black;
+
+}
+#explore_college_button{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #377ced;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+}
+#welcome{
+    font-size: 0.9rem;
+    margin-bottom: 0%;
+    font-weight: 400;
+}
+
+#college_name{
+    font-size: 3rem;
+    margin-bottom: 0%;
+    font-weight: bolder;
+}
+#thought{
+    font-size: o.95rem;
+    font-weight: lighter;
+}
+#slide_button{
+    border: 0px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #fff;
+    background: linear-gradient(#004d7d, #fff);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    color: #fb0505;
+    font-size: 2rem;
 }
