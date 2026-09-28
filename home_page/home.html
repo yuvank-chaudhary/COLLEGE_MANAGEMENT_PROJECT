@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <div class="container-fluid" style="min-height: 100vh;">
-<!------------------------------- college name and navbar  -->
-        <div class="row" style="background-color: #004d7d;min-height: 5vh;">
+    <div class="container-fluid" style="min-height: 50vh;">
+        <!------------------------------- college name and navbar  -->
+        <div class="row" style="background-color: #004d7d;min-height: 10vh" ;>
             <div class="col-lg-3 d-flex justify-content-center" id="college_name_and_logo">
                 <div id="logo" class="d-flex justify-content-center align-items-center gap-3">
                     <img src="../images/college_logo.png" alt="">
@@ -30,13 +30,15 @@
                     <li><a href="#">Notification</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <button id="login" class="d-flex gap-2"><img src="../images/login_lock_icon.png" style="height: 20px;width: 20px;">LOG IN</button>
+                <button id="login" class="d-flex gap-2"><img src="../images/login_lock_icon.png"
+                        style="height: 20px;width: 20px;">LOG IN</button>
             </div>
         </div>
-<!-- -------------------------------------- college image ------------------------------------ -->
-        <div class="row" style="min-height: 50vh;" id="college_img" style="padding-top: 10vh;">
+        <!-- -------------------------------------- college image ------------------------------------ -->
+        <div class="row" style="min-height: 20vh;" id="college_img">
             <div class="col-1">
-                <button id="slide_button"><</button>
+                <button id="slide_button">
+                    < </button>
             </div>
             <div class="col-10" id="welcome_container">
                 <div id="welcome_college">
@@ -45,7 +47,7 @@
                     <p id="thought">Bulding a better future thought <br>equality eductionand innovation</p>
                     <div>
                         <button id="explore_college_button">Explore College</button>
-                    <button id="college__login_button">LOG IN</button>
+                        <button id="college__login_button">Log in</button>
                     </div>
                 </div>
                 <div class="dot">
@@ -60,7 +62,78 @@
                 <button id="slide_button">></button>
             </div>
         </div>
+    </div>
+    <!-- ------------------ student,faculty member,courses,departments ------------------------------- -->
+    <div class="container px-5" style="min-height: auto;">
+        <div class="row">
+            <div class="col-sm-3 d-flex same gap-1" id="student_count">
+                <div class="img_student_count">
+                    <img src="../images/group.png" alt="img" srcset="">
+                </div>
+                <div>
+                    <p>2500+</p>
+                    <p class="student">Students</p>
+                </div>
+            </div>
+            <div class="col-sm-3  gap-1 d-flex same" id="faculty_count">
+                <div class="img_faculty_count">
+                    <img src="../images/teacher.png" alt="img" srcset="">
+                </div>
+                <div>
+                    <p>100+</p>
+                    <p class="student">Faculty Members</p>
+                </div>
+            </div>
+            <div class="col-sm-3 gap-1 d-flex same" id="courses_count">
+                <div class="img_courses_count">
+                    <img src="../images/book (1).png" alt="img">
+                </div>
+                <div>
+                    <p>50+</p>
+                    <p class="student">Courses</p>
+                </div>
+            </div>
+            <div class="col-sm-3 gap-1 d-flex same" id="departments_count">
+                <div class="img_department_count">
+                    <img src="../images/department.png" alt="img">
+                </div>
+                <div>
+                    <p>10+</p>
+                    <p class="student">departments</p>
+                </div>
+            </div>
+        </div>
+        <!---------------- About and notification section --------------->
+        <div class="row" style="min-height: 30vh;">
+            <div class="col-sm-8 d-flex ">
 
+                <div style="height: 100%;width: 30%;">
+                    <img src="../images/college_img.jpg" alt="" srcset="" height="100%" width="100%">
+                </div>
+                <div style="height: 100%;width: 70%;">
+                    <p id="about_college_heading">About the College</p>
+                    <p id="about_college_paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id minus
+                        quibusdam et. Dolores animi eligendi nam quasi, iusto deserunt minus distinctio voluptate quos
+                        eos possimus a, cu, labore delectus reprehenderit, officiis quasi optio quibusdam assumenda eum
+                        ullam. Fugit unde ducimus at distinctio!</p>
+                    <button id="read_more_button">Read more</button>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex ">
+                <div style="height: 100%;width: 100%;">
+                    <div id="notification_bar">
+                        <p id="notification">Leatest Notification</p>
+                        <a href="#">View All</a>
+                    </div>
+                    <ul>
+                        <li class="red">dadf dfdfwga dfvasf</li>
+                        <li class="green">dadf dfdfwga dfvasf</li>
+                        <li class="blue">dadf dfdfwga dfvasf</li>
+                        <li class="purple">dadf dfdfwga dfvasf</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

@@ -7,7 +7,7 @@ body {
 
 /* --------------------------------college name and logo -----------------------------------------*/
 #logo {
-    font-size: 1.6rem;
+    font-size: 1rem;
     vertical-align: bottom;
 }
 
@@ -55,7 +55,7 @@ body {
     background-color: rgb(72, 72, 221);
     border: 0px;
     border-radius: 10px;
-    padding: 5px 10px 5px 10px;
+    padding: 3px 7px 3px 7px;
     font-weight: bolder;
     box-shadow: 0px 0px 5px #e0e2e4;
 }
@@ -78,12 +78,12 @@ body {
 }
 
 #welcome_container{
-    height: 300px;
+    height: 230px;
     width: 80%;
 }
 
 #welcome_college{
-    height: 260px;
+    height: 180px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -91,42 +91,185 @@ body {
 
 }
 #explore_college_button{
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 600;
     background-color: #377ced;
-    border-radius: 5px;
+    border-radius: 50px;
     border: 0px;
-    padding: 5px 10px 5px 10px;
+    padding: 7px 20px 7px 20px;
+    box-shadow: 5px 1px 5px black;
+}
+#explore_college_button:active{
+    box-shadow: none;
+}
+#college__login_button{
+    background-color: transparent;
+    font-size: 0.7rem;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-weight: bolder;
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    margin-left: 10px;
+    box-shadow: 5px 1px 5px black;
+}
+#college__login_button:active{
+    box-shadow: none;
 }
 #welcome{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-bottom: 0%;
     font-weight: 400;
 }
 
 #college_name{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 0%;
     font-weight: bolder;
 }
 #thought{
-    font-size: o.95rem;
+    font-size: o.6rem;
     font-weight: lighter;
 }
 #slide_button{
     border: 0px;
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: #fff;
     background: linear-gradient(#004d7d, #fff);
 }
 
-ul{
+/* ul{
     display: flex;
     justify-content: center;
     align-content: center;
     gap: 20px;
-    color: #fb0505;
+    color: #fff;
     font-size: 2rem;
+} */
+
+/* ------------------ student,faculty member,courses,departments ------------------------------- */
+.same{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.same div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.same div p{  
+    padding: 0px;
+    margin: 0px;
+}
+
+#student_count{
+    font-size: 1.2rem;
+    color: rgb(37, 115, 184);
+    font-weight: bolder;
+}
+#faculty_count{
+    font-size: 1.2rem;
+    color: rgb(32, 161, 3);
+    font-weight: bolder;
+}
+#courses_count{
+    font-size: 1.2rem;
+    color: rgb(239, 226, 49);
+    font-weight: bolder;
+}
+#departments_count{
+    font-size: 1.2rem;
+    color: rgb(217, 49, 239);
+    font-weight: bolder;
+}
+.student{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.img_student_count{
+    height: 100%;
+}
+.img_student_count img{
+    height: 80%;
+}
+
+.img_courses_count{
+    height: 100%;
+}
+.img_courses_count img{
+    height: 80%;
+}
+
+.img_faculty_count{
+    height: 100%;
+}
+.img_faculty_count img{
+    height: 80%;
+}
+
+.img_student_count{
+    height: 100%;
+}
+.img_student_count img{
+    height: 80%;
+}
+
+.img_department_count{
+    height: 100%;
+}
+.img_department_count img{
+    height: 78%;
+}
+
+/*  ---------------- about and notification ---- */
+#about_college_heading{
+    padding-left: 10px;
+    font-weight: bolder;
+}
+#about_college_paragraph{
+    padding-left: 10px;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+#read_more_button{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #377ced;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#notification_bar{
+    display: flex;
+    height: 15%;
+    
+    justify-content: space-between;
+}
+#notification{
+    font-weight:  bolder; 
+}
+
+.red::marker{
+    color: red;
+}
+.green::marker{
+    color: greenyellow;
+}
+.blue::marker{
+    color: blue;
+}
+.purple::marker{
+    color: purple;
 }
