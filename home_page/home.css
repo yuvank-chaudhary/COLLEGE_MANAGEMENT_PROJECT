@@ -43,7 +43,7 @@ body {
     font-size: 0.9rem;
 }
 
-#navbar_list li a:focus {
+#navbar_list li a:hover {
     color: #3583e8;
     border-bottom: 2px solid #3583e8;
     padding-bottom: 10px;
@@ -261,15 +261,21 @@ body {
     font-weight:  bolder; 
 }
 
-.red::marker{
-    color: red;
+.red{
+    display: flex;
+    list-style-type: circle;
 }
-.green::marker{
-    color: greenyellow;
+.noti_1{
+    height: 100%;
+    width: 60%;
+    font-size: 0.9rem;
 }
-.blue::marker{
+.noti_1_date_time{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    font-size: 0.9rem;
     color: blue;
-}
-.purple::marker{
-    color: purple;
+
 }
